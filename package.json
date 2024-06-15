@@ -8,7 +8,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{Gunjan349}.github.io/{personal-portfolio'",
+    "build-gh": "parcel build --public-url 'https://{Gunjan349}.github.io/{personal-portfolio}",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
