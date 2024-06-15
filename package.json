@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
+  "private" : "false",
   "homepage": "https://Gunjan349.github.io/personal-portfolio",
   "scripts": {
     "start": "parcel",
