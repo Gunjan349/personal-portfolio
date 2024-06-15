@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio-section-image.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "glimpse of project (E-Commerce website)";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "nearYou - An E-Commerce website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A website with features like shopping cart functionality, search and filter, user authorization using JWT.",
+    url: "https://nearu.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "VirtualRegister - An attendance tracking system",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "An attendance tracking system to track attendance and assignments of students",
+    url: "https://github.com/Gunjan349/Attendance-Management-System",
   },
   {
-    title: "My Resume Site",
+    title: "A static and responsive webpage",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created a responsive and static webpage as an assignment.",
+    url: "https://github.com/Gunjan349/Fyle-assignment",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "A responsive and animated webpage",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created webpage using HTML, tailwind CSS, JS.",
+    url: "https://github.com/Gunjan349/batch-system-assignment",
   },
 ];
 
@@ -64,13 +64,13 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{  width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
         <div className="container">
           {projectList.map((project) => (
-            <div className="box" key={project.title}>
+            <div className="box" key={project.title} style={{color : "peru"}}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>

@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 div#main {
@@ -75,6 +76,7 @@ p {
 
 p.large {
   font-size: 24px;
+  color: white;
 }
 
 p.small {
@@ -94,7 +96,7 @@ li::marker {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
