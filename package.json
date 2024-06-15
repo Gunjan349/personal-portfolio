@@ -4,11 +4,11 @@
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
   "private" : "false",
-  "homepage": "https://Gunjan349.github.io/personal-portfolio",
+  "homepage": "https://github.com/Gunjan349/personal-portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Gunjan349.github.io/personal-portfolio",
+    "build-gh": "parcel build --public-url 'https://{Gunjan349}.github.io/{personal-portfolio}'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
